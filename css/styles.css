@@ -13,6 +13,7 @@ header {
   position: sticky;
   justify-content: space-between;
   align-items: center;
+  box-shadow: 1px -1px 11px 5px inset rgba(0, 0, 0, .1);
 }
 
 main {
@@ -55,6 +56,7 @@ h1 {
   margin-right: 90px;
   margin-top: 10px;
   margin-bottom: 5px;
+  box-shadow: 1px 0px 20px -8px black;
 }
 
 .message-box-me {
@@ -69,10 +71,15 @@ h1 {
   margin-left: 90px;
   margin-top: 10px;
   align-self: flex-end;
+  box-shadow: 1px 0px 20px -8px black;
 }
 
 .message-box-me .message-time {
   text-align: end;
+}
+
+div img {
+  max-width: 190px;
 }
 
 footer {
@@ -85,9 +92,19 @@ footer {
   font-weight: 300;
   font-style: normal;
   font-size: 10px;
+  box-shadow: 1px -1px 11px 5px inset rgba(0, 0, 0, .1);
 }
 
 .social-icons {
   max-width: 20px;
-  padding: 10px 13px 10px 0;
+  padding: 10px 1px 10px 0;
+}
+
+.message-form {
+  background: #f48d59;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 10px 15px 10px;
+  position: sticky;
+  box-shadow: 1px -1px 11px 5px inset rgba(0, 0, 0, .1);
 }
