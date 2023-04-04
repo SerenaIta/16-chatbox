@@ -3,6 +3,7 @@ body {
   margin: auto;
   background: #ddd;
   display: flex;
+  background-image: ;
 }
 
 header {
@@ -13,6 +14,11 @@ header {
   position: sticky;
   justify-content: space-between;
   align-items: center;
+}
+
+main {
+  background-image: url(../img/background-image.png);
+  background-size: contain;
 }
 
 .profile-picture {
