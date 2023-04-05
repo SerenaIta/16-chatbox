@@ -8,9 +8,10 @@ body {
 header {
   background-color: #669966;
   display: flex;
+  position: sticky;
+  top: 0;
   height: 51px;
   padding: 5px 10px 5px 10px;
-  position: sticky;
   justify-content: space-between;
   align-items: center;
   box-shadow: 1px -1px 11px 5px inset rgba(0, 0, 0, .1);
@@ -41,7 +42,8 @@ h1 {
   font-family: "area-normal", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 19px;
+  font-size: 22px;
+  padding-bottom: 6px;
 }
 
 .message-box-mother {
@@ -103,8 +105,9 @@ footer {
 .message-form {
   background: #f48d59;
   display: flex;
+  position: sticky;
+  bottom: 0;
   justify-content: space-between;
   padding: 15px 10px 15px 10px;
-  position: sticky;
   box-shadow: 1px -1px 11px 5px inset rgba(0, 0, 0, .1);
 }
