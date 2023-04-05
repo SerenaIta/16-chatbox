@@ -19,7 +19,7 @@ header {
 
 main {
   padding: 0 9px 0 9px;
-  background-image: url(../img/background-image_2.png);
+  background-image: url(../img/background-image.png);
   background-size: contain;
   background-size: 160px;
 }
@@ -89,7 +89,7 @@ footer {
   background-color: #669966;
   display: flex;
   height: 80px;
-  padding: 5px 10px 5px 10px;
+  padding: 5px 10px 5px 20px;
   font-family: "area-normal", sans-serif;
   font-weight: 300;
   font-style: normal;
@@ -110,4 +110,9 @@ footer {
   justify-content: space-between;
   padding: 15px 10px 15px 10px;
   box-shadow: 1px -1px 11px 5px inset rgba(0, 0, 0, .1);
+}
+
+.chatbox-logo {
+  max-width: 50px;
+  padding: 10px 0 0 125px
 }
